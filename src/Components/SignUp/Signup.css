@@ -1,0 +1,60 @@
+.signup{
+    background-color: skyblue;
+    text-align: center;
+    height:708px;
+    padding-top: 5px;
+}
+.signup-container{
+    background-color:beige;
+    width:500px;
+    height: 600px;
+    text-align: center;
+    margin-top:50px;
+    margin-left: 500px;
+    padding-top: 10px;
+    border-radius: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    color:rgb(27, 250, 116);
+}
+.signspan{
+    color:rgb(5, 47, 58);
+    margin-top: 5px;
+}
+.signinp{
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+    padding:10px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+.radioinp{
+    cursor:pointer;
+}
+#signbtn{
+    font-size: 18px;
+    color:orange;
+    background-color: aquamarine;
+    font-weight: bold;
+    padding:10px;
+    border:none;
+    border-radius: 5px;
+    width:250px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+#signbtn:hover{
+    transition: 0.3s;
+    font-size: 22px;
+    width:280px;
+    color:rgb(249, 162, 2);
+    background-color: rgb(65, 251, 189);
+}
+#signupspanlink{
+    font-size: 15px;
+    color:black;
+}
+#signuplink{
+    text-decoration: none;
+}

@@ -1,0 +1,79 @@
+.contact{
+    background-image: url("./contact.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height:100vh;
+    width: 100vw;
+    display: block;
+    color: azure;
+}
+#contact-navbar{
+    width:100%;
+}
+#contact-form{
+    float: left;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top:8px;
+    padding-left: 35px;
+}
+.inp{
+    font-size: 15px;
+    margin-top: 10px;
+    padding:10px;
+    border: none;
+    border-radius:5px;
+    width: 280px;
+    cursor: pointer;
+}
+textarea{
+    font-size: 18px;
+    margin-top: 10px;
+    padding:10px;
+    border: none;
+    border-radius:5px;
+    cursor: pointer;
+}
+#contact-icons{
+    /* padding:100px; */
+    margin-left: 435px;
+    margin-right: 1000px;
+    margin-top: 60px;
+}
+.contact-icons-a{
+    text-decoration: none;
+}
+.contact-icon-img{
+    height: 70px;
+    width:70px;
+    transition: 0.5s;
+}
+.contact-icon-img:hover{
+    height: 90px;
+    width: 90px;
+    margin-left: -10px;
+    transition: 0.5s;
+}
+#contact-btn{
+    background-color: rgb(224, 44, 44);
+    width: 250px;
+    border-radius: 20px;
+    border: none;
+    font-size: large;
+    font-weight: 700;
+    color:white;
+    padding: 8px;
+    margin-top: -1000px;
+    margin-bottom: 40px;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-left: 27px;
+}
+#contact-btn:hover{
+    color:rgb(249, 234, 191);
+    background-color: rgb(255, 0, 76);
+    font-size: larger;
+    transition: 0.3s;
+    font-weight: bold;
+}

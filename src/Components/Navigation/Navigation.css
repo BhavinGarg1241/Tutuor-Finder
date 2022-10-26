@@ -1,0 +1,40 @@
+.navbar{
+    background-color: rgb(50, 49, 49);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 100px;
+    height: 70px;
+}
+#nav-div1{
+    float:left;
+    margin-left: 30px;
+    width:10px;
+    font-size: 20px;
+    cursor: pointer;
+    padding-top: 12px;
+}
+#brand{
+    font-size: 40px;
+    color: rgb(82, 178, 82);
+    text-decoration: none;
+    font-style: italic;
+    font-weight: bolder;
+}
+#nav-div2{
+    float:right;
+}
+.navlinks{
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    color:rgb(250, 176, 39);
+    cursor: pointer;
+    transition: 0.5s;
+}
+.navlinks:hover{
+    color:orangered;
+    font-size: 25px;
+    font-weight: bolder;
+    transition:0.5s;
+}

@@ -1,0 +1,29 @@
+.about{
+    background-image: url("./about.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    height: 100vh;
+    width: 100vw;
+    /* margin-top:-57px; */
+}
+#abouth1{
+    font-size: 85px;
+    color: rgb(26, 26, 26);
+}
+#abouth2{
+    color:rgb(56, 87, 149);
+    font-size: 50px;
+}
+.aboutp{
+    margin-left: 20px;
+    margin-right: 20px;
+    font-weight:700;
+    font-size: 20px;
+    color:rgb(17, 4, 64);
+}
+#abouth3{
+    margin-top: 32px;
+    font-size: 25px;
+    color: rgb(15, 54, 73);
+}

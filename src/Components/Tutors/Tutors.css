@@ -1,0 +1,104 @@
+#tutors-container{
+    background-image:url("./tutor-background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height:643px;
+    width: 100%;
+    text-align: center;
+    overflow: scroll;
+    overflow-x:hidden;
+    scroll-behavior: smooth;
+}
+#searchbarinp{
+    font-size: 18px;
+    height: 25px;
+    padding:10px;
+    padding-left: 30px;
+    width: 600px;
+    border:none;
+    border-radius: 50px;
+    margin-top: 20px;
+    cursor: pointer;
+    font-weight: 550;
+    color: brown;
+}
+.tut-cards{
+    height: 200px;
+    width:800px;
+    text-align: center;
+    margin-left: 330px;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    background-color: beige;
+    border-radius: 15px;
+    padding:20px;
+    display: flex;
+    align-items: center;
+}
+.tut-cards-img{
+    background-color: grey;
+    border-radius: 50%;
+    width: 182px;
+    height: 200px;
+    margin-left: 10px;
+    float: left;
+}
+.tut-user-img{
+    border-radius: 50%;
+    width: 182px;
+    height: 200px;
+}
+.tut-cards-details{
+    float: right;
+    background-color: rgb(74, 85, 85);
+    height: 150px;
+    width: 500px;
+    padding: 20px;
+    margin-left: 40px;
+    border-radius: 15px;
+}
+.tutorp{
+    color: white;
+    font-size: 20px;
+    margin-top: -10px;
+    margin-bottom: 16px;
+    padding-top: 5px;
+    padding-left: 10px;
+    text-align: left;
+}
+.proceed-img{
+    height:45px;
+    width:45px;
+    margin-top: -40px;
+    margin-left: 457px;
+    cursor: pointer;
+    text-decoration: none;
+    transition:0.5s;
+}
+.proceed-img:hover{
+    height: 60px;
+    width: 60px;
+    transition: 0.5s;
+}
+#backtotopbtn{
+    font-size: 25px;
+    cursor: pointer;
+    background-color: rgb(110, 109, 109);
+    margin: 30px 0 20px 0;
+    border: none;
+    padding:10px;
+    border-radius: 15px;
+    width: 200px;
+    color: white;
+    transition: 0.5s;
+}
+#backtotoplink{
+    text-decoration: none;
+}
+#backtotopbtn:hover{
+    font-size: 28px;
+    transition: 0.5s;
+    width: 350px;
+    background-color: rgb(56, 56, 56);
+}

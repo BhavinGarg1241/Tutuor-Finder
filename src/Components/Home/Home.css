@@ -1,0 +1,79 @@
+.home{
+    background-image: url("./home.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 102vh;
+    width: 1475px;
+    margin-top:-57px;
+    padding:20px;
+    padding-left:40px;
+}
+#homeh1{
+    background: linear-gradient(to left,
+                    rgb(255, 145, 20),
+                    orange,
+                    white);
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 100px;
+    width:1200px;
+    margin-top: 90px;
+    margin-bottom: 80px;
+}
+#homeh2{
+    background: linear-gradient(to left,
+                    rgb(95, 223, 59),
+                    rgb(41, 142, 210),
+                    #d42727);
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 50px;
+    width: 800px;
+    margin-bottom: 50px;
+}
+.homep{
+    font-size:30px;
+    font-weight: bold;
+    color:rgb(20, 19, 19);
+    width: 1000px;
+}
+#home-btn{
+    height: 50px;
+    width: 300px;
+    margin-top:30px;
+    margin-left:100px;
+    background:linear-gradient(rgb(206, 68, 68),rgb(194, 153, 77));
+    font-size:30px;
+    font-weight: bolder;
+    color: rgb(239, 245, 239);
+    border-radius: 10px;
+    border:none;
+    cursor: pointer;
+    margin-top: 50px;
+    transition: 0.5s;
+}
+#home-btn:hover{
+    height: 70px;
+    width: 370px;
+    font-size: 40px;
+    margin-top:30px;
+    margin-left:100px;
+    background:linear-gradient(rgb(206, 68, 68),rgb(194, 153, 77));
+    font-size:30px;
+    font-weight: bolder;
+    color: rgb(239, 245, 239);
+    border-radius: 10px;
+    border:none;
+    cursor: pointer;
+    transition: 0.5s;
+}
+#homeimg{
+    right: 70px;
+    top: 250px;
+    position: fixed;
+    height: 350px;
+    width: 500px;
+    z-index: 1;
+    border-radius: 15px;
+}
